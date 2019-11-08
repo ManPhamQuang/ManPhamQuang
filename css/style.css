@@ -18,10 +18,28 @@
 
 .banner{
     width: 100%;
-    height: 700px;
+    height: 100%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+}
+
+#myerbriggs{
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-bottom: 2em;
+}
+
+#big5{
+    width: 100%;
+    height: 550px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-bottom: 2em;
 }
 
 body {
@@ -394,7 +412,7 @@ body.offcanvas {
 .colorlib-services,
 .colorlib-contact {
   padding-top: 4em;
-  padding-bottom: 9em;
+  padding-bottom: 0em;
   clear: both;
   width: 100%;
   display: block; }
